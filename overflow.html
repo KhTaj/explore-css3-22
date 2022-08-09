@@ -20,9 +20,13 @@
 
         .mini-mini{
             width: 100px;
+            border: 3px solid indianred;
         }
         .short-text{
             white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            
         }
     </style>
     <title>Overflow</title>
@@ -30,7 +34,8 @@
 <body>
     <h1>Ami khushite godo godo</h1>
     <div class="mini-mini">
-        <p class="short-text">
+        <p class="short-text" title="This is a short text but you have to show in one line.
+        ">
             This is a short text but you have to show in one line.
         </p>
     </div>
